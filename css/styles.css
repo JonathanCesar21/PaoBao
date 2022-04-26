@@ -1,0 +1,167 @@
+.body{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.row{
+    --bs-gutter-x: 0rem !important;
+}
+
+.img-banner{
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    height: 600px;
+    
+}
+
+.title-yellow{
+    color:rgb(238, 182, 0);
+}
+
+.text-banner h1{
+    margin-top: 220px;
+    color: #fff;
+    font-size: 48px;
+    text-shadow: 2px 3px 2px rgba(0,0,0,0.71);
+}
+
+.btn-banner button{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 45px;
+    border-color: #000;
+    border-style: solid;
+    color: #000;
+    background-color: #fff;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.link-nav a{
+    text-decoration: none;
+    color: #000;
+}
+
+.link-nav a:hover{
+    color: #000;
+}
+
+
+.img-produtos img{
+    width: 450px;
+}
+
+.produtos{
+    flex-direction: row;
+    display: flex;
+    list-style: none;
+    justify-content:center;
+}
+
+.produtos li{
+    margin-right: 30px;
+}
+
+
+.produtos-item a{ 
+    text-decoration: none;
+    color: #000;
+}
+
+.produtos-item a:hover{ 
+    color: #000;
+}
+
+.card-paes{
+    background-color: #E5E5E5;
+    width: 330px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-paes img{
+    width: 150px;
+}
+
+.text-cards{
+    margin-bottom: 20px;
+}
+
+.text-cards p{
+    margin-left: 190px;
+}
+
+.text-cards h3{
+    font-size: 16px;
+}
+
+.stars img{
+    width: 90px;
+    height: 20px;
+    
+}
+
+.sobre img{
+    width: 550px;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.sobre h2{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.sobre p{
+    
+    margin-left: 20px;
+}
+
+.sobre-shadow{
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.btn-sobre button{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    background: #ffffff;
+    padding: 10px 20px 10px 20px;
+    border: solid #000000 2px;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 200px;
+}
+.padaria h2{
+    margin-top: 40px
+}
+.padaria img{
+    width: 100%;
+    height: 750px;
+    
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
